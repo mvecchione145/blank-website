@@ -45,3 +45,5 @@ heroku ps:scale web=1
 ```bash
 python3 run.py
 ```
+
+You can exit the app by pressing CTRL + C
