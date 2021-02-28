@@ -27,3 +27,23 @@
 
 </html>
 ```
+
+## index.html
+
+```html
+<!-- "extends" calls the file to be the inherited file -->
+{% extends "base.html" %}
+
+<!-- Adding block html here will be inserted where base.html calls header block -->
+{% block header %}
+<h1>BLANK-WEBSITE</h1>
+{% endblock %}
+
+<!-- Adding block html here will be inserted where base.html calls content block -->
+{% block content %}
+<table>
+    <tr><th>Author</th><th>Date</th></tr>
+    <tr><td>mvecchione145</td><td>2/28/2021</td></tr>
+</table>
+{% endblock %}
+```
